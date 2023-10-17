@@ -8,6 +8,7 @@ public class drunkGuy {
     private Stack<Integer> Player2 = new Stack<>();
 
 
+
     public Stack<Integer> ReverseStack(ArrayList<Integer> list) {
         Stack<Integer> stack = new Stack<>();
         Collections.reverse(list);
