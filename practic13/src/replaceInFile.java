@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class replaceInFile {
+public class replaceInFile extends writeToFile {
 
     public void Replace() {
         BufferedReader reader = null;
