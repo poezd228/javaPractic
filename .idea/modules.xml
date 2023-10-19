@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javaPractic.iml" filepath="$PROJECT_DIR$/javaPractic.iml" />
       <module fileurl="file://$PROJECT_DIR$/pract11/pract11.iml" filepath="$PROJECT_DIR$/pract11/pract11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pract11new/pract11new.iml" filepath="$PROJECT_DIR$/pract11new/pract11new.iml" />
       <module fileurl="file://$PROJECT_DIR$/pract14/pract14.iml" filepath="$PROJECT_DIR$/pract14/pract14.iml" />
       <module fileurl="file://$PROJECT_DIR$/practic13/practic13.iml" filepath="$PROJECT_DIR$/practic13/practic13.iml" />
     </modules>
