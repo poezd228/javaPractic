@@ -2,16 +2,14 @@ public class Student{
     private String Name;
     private int mark;
 
-    Student(String Name, int mark){
-        this.Name = Name;
-        this.mark = mark;
-    }
+
 
     public int getMark() {
         return mark;
     }
 
-    public String getName() {
+    public String getName(){
+
         return Name;
     }
 

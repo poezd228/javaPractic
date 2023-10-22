@@ -129,8 +129,8 @@ public class Main {
                 student.setGPA(RandomGenerator.getDefault().nextInt(100));
                 System.out.println(student.getIDNumber() + " " + student.getGPA());
             }
-            MergeSort(students,0, students.length-1);
-            //insertionSort(students);
+            //MergeSort(students,0, students.length-1);
+            insertionSort(students);
             //quickSortGPA(students,0, students.length-1);
             System.out.println("id=GPA=====");
 
