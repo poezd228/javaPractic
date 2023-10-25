@@ -3,9 +3,13 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 interface IWaitList<E> {
     void addElement(E element);
+
     E remove();
+
     boolean contains(E element);
+
     boolean containsAll(Collection<E> c);
+
     boolean isEmpty();
 }
 
@@ -91,6 +95,9 @@ class UnfairWaitList<E> extends WaitList<E> {
 
 public class Main {
     public static void main(String[] args) {
+        BoundedWaitList list = new BoundedWaitList(5);
+        list.addElement("Влад");
+        System.out.println(list.toString());
         // Here you can test and demonstrate the functionality of your classes
     }
 }
