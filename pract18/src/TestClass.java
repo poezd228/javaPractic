@@ -1,4 +1,6 @@
-public class TestClass <T, V, K> {
+import java.io.*;
+
+public class TestClass <T extends  Comparable<String>, V extends Animal & Serializable, K> {
     private T newT;
     private V newV;
     private K newK;
