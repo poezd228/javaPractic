@@ -5,7 +5,7 @@ public class Main {
        replaceInFile file = new replaceInFile();
        file.read();
        file.write();
-       fi
+
 
 
     }
