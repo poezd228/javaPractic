@@ -35,6 +35,13 @@ public class replaceInFile extends readFromFile {
                 e.printStackTrace();
             }
         }
+        try {
+            reader.close();
+
+        }
+        catch (IOException e){
+
+        }
     }
 
 }
